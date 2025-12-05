@@ -20,7 +20,7 @@ Here are the steps to run our full cohort study from scratch:
 2. Run the modeling pipeline in `modeling`, specifying the cohort (e.g., `cohort_t12`) and features to include &rarr; this will save your experiment results as JSON files in `logs` under your cohort and feature set
 3. Analyze your experiment results in `logs-analysis` to produce plots of your results for model performance comparison
 
-These steps already assume you have the [MIMIC-IV v1.0](https://physionet.org/content/mimiciv/1.0/) data downloaded; if not, you must download the following data files:
+These steps already assume you have the [MIMIC-IV v1.0](https://physionet.org/content/mimiciv/1.0/) data downloaded; if not, you must download the following data tables:
 - `core/patients.csv`
 - `core/admissions.csv`
 - `core/transfers.csv`
